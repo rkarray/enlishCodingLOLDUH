@@ -1,0 +1,102 @@
+p {
+    color: #a7afee    ;
+}
+h4 {
+    color:cornsilk  ;
+}
+body {
+    background-color: #000;
+} 
+
+/*h1 {
+    padding: 60px; TRY ME
+}*/
+
+/*h1 {
+    margin-left: 60px; TRY ME
+}*/
+
+/*.header *{
+    border:solid ; TRY ME
+    border-color: green;
+}*/
+
+
+.header {
+    background-color: rgb(10, 10, 11);
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:visited {
+    color: rgb(113, 147, 165);
+}
+
+a:link {
+    color: azure;
+}
+
+.item {
+    position: relative;
+}
+
+.item h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover h4 {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
